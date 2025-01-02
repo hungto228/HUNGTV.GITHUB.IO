@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - To Van Hung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            font-size: 14px;
+            color: #555;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>To Van Hung</h1>
+        <p class="contact-info">
+            📅 30/10/1999<br>
+            📞 0379117280<br>
+            📧 Hungto228@gmail.com<br>
+            📍 Hanoi City, Viet Nam
+        </p>
+
+        <div class="section">
+            <h2>Summary</h2>
+            <p>
+                I'm Hung, an experienced developer proficient in Flutter, Java Spring Boot, HTML, CSS, and JavaScript. 
+                With around 4 years of experience in software development, I bring enthusiasm, creativity, and a positive attitude to cross-functional teamwork.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Proficient in Flutter and Dart, with experience in state management using GetX, RxDart, and Bloc-Cubit.</li>
+                <li>Experienced in API integration with RESTful, GraphQL, SocketIO, and Firebase services.</li>
+                <li>Basic knowledge of Android, React Native, and Golang.</li>
+                <li>Strong problem-solving and analytical skills.</li>
+                <li>Mobile performance optimization techniques.</li>
+                <li>Proficient in HTML, CSS, JavaScript/TypeScript.</li>
+                <li>Experienced with Agile methodologies and tools like Jira.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <h3>HRM App</h3>
+            <p><strong>Role:</strong> Flutter Developer, Backend Developer<br>
+               <strong>Duration:</strong> 08/2024 - Now</p>
+            <p>Description: The HRM application supports businesses in managing employees, including tracking personal information, timekeeping, and leave management.</p>
+            <ul>
+                <li>Developed modules such as employee information management, timekeeping history tracking, leave request approvals, and performance report displays.</li>
+                <li>Engaged in API design and optimization to meet business requirements.</li>
+                <li>Proposed UX/UI enhancements to improve usability and efficiency.</li>
+                <li>Performed bug fixing, code review, and refactoring.</li>
+            </ul>
+            <p><strong>Links:</strong> <a href="https://play.google.com/store/apps/details?id=vn.com.hrly">Android</a>, <a href="https://apps.apple.com/vn/app/tls-hrm/id6738086392">iOS</a></p>
+
+            <h3>Wallet MBF App</h3>
+            <p><strong>Role:</strong> Flutter Developer<br>
+               <strong>Duration:</strong> 04/2023 - Now</p>
+            <p>Description: The application manages e-wallets with features like tracking transactions, bill payments, and money transfers.</p>
+            <ul>
+                <li>Developed modules such as transaction details viewer, mobile top-up, QR code payments, and recipient contact management.</li>
+                <li>Proposed UX/UI enhancements to improve user experience.</li>
+            </ul>
+            <p><strong>Links:</strong> <a href="https://play.google.com/store/apps/details?id=com.mobifone.mmdt">Android</a>, <a href="https://apps.apple.com/vn/app/mobifone-money/id6448983826">iOS</a></p>
+
+            <!-- Add other projects similarly -->
+        </div>
+    </div>
+</body>
+</html>
