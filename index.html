@@ -11,52 +11,99 @@
             padding: 0;
             line-height: 1.6;
         }
+
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
         }
+
         h1, h2, h3 {
             color: #333;
         }
+
         .section {
             margin-bottom: 20px;
         }
+
         .contact-info {
             font-size: 14px;
             color: #555;
         }
+
         ul {
             list-style: none;
             padding: 0;
         }
+
         ul li {
             margin-bottom: 10px;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+        }
+
+        .info {
+            padding-left: 15px;
+        }
+
+        .image_info {
+            width: 100px;
+            height: auto;
+        }
+
+        .title_header {
+            display: inline-block;
+            position: relative;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .title_header::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            width: 100%;
+            height: 2px;
+            background-color: #000;
         }
     </style>
 </head>
 <body>
 <div class="container">
-    <h1>To Van Hung</h1>
-    <p class="contact-info">
-        📅 30/10/1999<br>
-        📞 0379117280<br>
-        📧 Hungto228@gmail.com<br>
-        📍 Hanoi City, Viet Nam
-    </p>
+    <div class="row">
+        <img class="image_info" src="https://github.com/hungto228/HUNGTV.GITHUB.IO/blob/main/chandung_2.jpg?raw=true">
+        <div class="info">
+            <h1>To Van Hung</h1>
+            <p class="contact-info">
+                📅 30/10/1999<br>
+                📞 0379117280<br>
+                📧 Hungto228@gmail.com<br>
+                📍 Hanoi City, Viet Nam
+            </p>
+        </div>
+
+    </div>
 
     <div class="section">
-        <h2>Summary</h2>
+        <h2 class="title_header">Summary</h2>
+        <p><strong>EDUCATION:</strong> Hung Yen, University Of Technology And Education<br>
         <p>
             I'm Hung, an experienced developer proficient in Flutter, Java Spring Boot, HTML, CSS, and JavaScript.
-            With around 4 years of experience in software development, I bring enthusiasm, creativity, and a positive attitude to cross-functional teamwork.
+            With around 4 years of experience in software development, I bring enthusiasm, creativity, and a positive
+            attitude to cross-functional teamwork.
         </p>
     </div>
 
     <div class="section">
-        <h2>Skills</h2>
+        <h2 class="title_header">Skills</h2>
         <ul>
-            <li>Proficient in Flutter and Dart, with experience in state management using GetX, RxDart, and Bloc-Cubit.</li>
+            <li>Proficient in Flutter and Dart, with experience in state management using GetX, RxDart, and
+                Bloc-Cubit.
+            </li>
             <li>Experienced in API integration with RESTful, GraphQL, SocketIO, and Firebase services.</li>
             <li>Basic knowledge of Android, React Native, and Golang.</li>
             <li>Strong problem-solving and analytical skills.</li>
@@ -67,29 +114,106 @@
     </div>
 
     <div class="section">
-        <h2>Experience</h2>
-        <h3>HRM App</h3>
+        <div>
+            <h2 class="title_header">Experience</h2>
+            <p><strong>Flutter:</strong> 3 years<br>
+            <p><strong>Angular:</strong> 8 months<br>
+            <p><strong>Java Spring Boot:</strong> 1 years<br>
+        </div>
+
+        <h3 class="title_header">HRM APP</h3>
         <p><strong>Role:</strong> Flutter Developer, Backend Developer<br>
             <strong>Duration:</strong> 08/2024 - Now</p>
-        <p>Description: The HRM application supports businesses in managing employees, including tracking personal information, timekeeping, and leave management.</p>
+        <p><strong>Description:</strong> The HRM application supports businesses in managing employees, including
+            tracking personal information, timekeeping, and leave management.</p>
         <ul>
-            <li>Developed modules such as employee information management, timekeeping history tracking, leave request approvals, and performance report displays.</li>
+            <strong>Contributions</strong>
+            <li>Developed modules such as employee information management, timekeeping history tracking, leave request
+                approvals, and performance report displays.
+            </li>
             <li>Engaged in API design and optimization to meet business requirements.</li>
             <li>Proposed UX/UI enhancements to improve usability and efficiency.</li>
             <li>Performed bug fixing, code review, and refactoring.</li>
         </ul>
-        <p><strong>Links:</strong> <a href="https://play.google.com/store/apps/details?id=vn.com.hrly">Android</a>, <a href="https://apps.apple.com/vn/app/tls-hrm/id6738086392">iOS</a></p>
+        <p><strong>Links:</strong> <a href="https://play.google.com/store/apps/details?id=vn.com.hrly">Android</a>, <a
+                href="https://apps.apple.com/vn/app/tls-hrm/id6738086392">iOS</a></p>
 
-        <h3>Wallet MBF App</h3>
+        <h3 class="title_header">WALLET MBF APP</h3>
         <p><strong>Role:</strong> Flutter Developer<br>
             <strong>Duration:</strong> 04/2023 - Now</p>
-        <p>Description: The application manages e-wallets with features like tracking transactions, bill payments, and money transfers.</p>
+        <p><strong>Description:</strong> The application manages e-wallets with features like tracking transactions,
+            bill payments, and money transfers.</p>
         <ul>
-            <li>Developed modules such as transaction details viewer, mobile top-up, QR code payments, and recipient contact management.</li>
+            <strong>Contributions</strong>
+            <li>Developed modules such as transaction details viewer, mobile top-up, QR code payments, and recipient
+                contact management.
+            </li>
             <li>Proposed UX/UI enhancements to improve user experience.</li>
         </ul>
-        <p><strong>Links:</strong> <a href="https://play.google.com/store/apps/details?id=com.mobifone.mmdt">Android</a>, <a href="https://apps.apple.com/vn/app/mobifone-money/id6448983826">iOS</a></p>
+        <p><strong>Links:</strong> <a href="https://play.google.com/store/apps/details?id=com.mobifone.mmdt">Android</a>,
+            <a href="https://apps.apple.com/vn/app/mobifone-money/id6448983826">iOS</a></p>
 
+        <h3 class="title_header">THE DIGITAL CONVERSION APP: MPI VIETNAM</h3>
+        <p><strong>Role:</strong> Flutter Developer<br>
+            <strong>Duration:</strong> 10/2022-03/2023</p>
+        <p><strong>Description:</strong> The government digital transformation app includes multiple integrated modules
+            such as document management, meeting schedule management, work schedule management, document processing,
+            opinions, etc., for the Ministry of Planning and Investment.</p>
+        <ul>
+            <strong>Contributions</strong>
+            <li>Developing features such as work schedules, displaying statistical charts, notifications, creating
+                opinions, feedback..
+            </li>
+            <li>Synthesize the progress of team members and report to the leader...</li>
+        </ul>
+        <h3 class="title_header">THE DIGITAL CONVERSION APP: MPI VIETNAM</h3>
+        <p><strong>Role:</strong> Flutter Developer<br>
+            <strong>Duration:</strong> 04/2023 - Now</p>
+        <p><strong>Description:</strong> The government digital transformation app includes multiple integrated modules
+            such as document management, meeting schedule management, work schedule management, document processing,
+            opinions, etc., for the Ministry of Planning and Investment.</p>
+        <ul>
+            <strong>Contributions</strong>
+            <li>Developing features such as work schedules, displaying statistical charts, notifications, creating
+                opinions, feedback..
+            </li>
+            <li>Synthesize the progress of team members and report to the leader...</li>
+        </ul>
+        <p><strong>Links:</strong> <a href="https://play.google.com/store/apps/details?id=com.mobifone.mmdt">Android</a>,
+            <a href="https://apps.apple.com/vn/app/mobifone-money/id6448983826">iOS</a></p>
+        <h3 class="title_header">PROJECT CIVIL SERVANTS APP</h3>
+        <p><strong>Role:</strong> Flutter Developer<br>
+            <strong>Duration:</strong> 02/2022 - 10/2022</p>
+        <p><strong>Description:</strong> The application primarily serves state employees by providing tools for
+            statistical job handling, specific work schedule tracking through a calendar interface, and participation in
+            various meetings directly within the app.</p>
+        <ul>
+            <strong>Contributions</strong>
+            <li>Developed modules including meeting details viewer, meeting participation, text-to-speech, to-do lists,
+                and contact management.Engaged in API design modifications.
+            </li>
+            <li>Proposed UX/UI enhancements.</li>
+            <li>Performed bug fixing and code review/refactoring.</li>
+            <li>Leveraged technologies like biometrics (fingerprint, Face ID), Firebase notifications, WebView,
+                text-to-speech, speech-to-text, and OTP servers (Smart OTP, SMS OTP)
+            </li>
+        </ul>
+
+
+        <h3 class="title_header">PROJECT DOCUMENT MANAGERMENT APP FOR GOVERMENT</h3>
+        <p><strong>Role:</strong> Flutter Developer<br>
+            <strong>Duration:</strong>08/2020 - 02/2022</p>
+        <p><strong>Description:</strong> App running on Phone and Tablet helps state officials view decree documents,
+            Draft and assign tasks to ministries and agencies in the city or other departments and at the same time keep
+            track of decrees. and assigned tasks.</p>
+        <ul>
+            <strong>Contributions</strong>
+            <li>developing modules for viewing text and task history, bug fixing, and collaborating with API, Backend
+                (BE), and Business Analysis (BA) teams, utilizing technologies such as Firebase.
+            </li>
+        </ul>
+        <p><strong>Links:</strong> <a href="https://play.google.com/store/apps/details?id=mpi.gov.vn ">Android</a>, <a
+                href="https://apps.apple.com/us/app/empi-vietnam/id1524442944">iOS</a></p>
         <!-- Add other projects similarly -->
     </div>
 </div>
